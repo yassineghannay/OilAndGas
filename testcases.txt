@@ -1,0 +1,83 @@
+#test case 1 
+
+---------------------------------------
+*** Welcome to Gas Station Program! ***
+---------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>> w
+Invalid input, you should enter g/G or o/O
+
+
+#test case 2
+
+---------------------------------------
+*** Welcome to Gas Station Program! ***
+---------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>> g
+Enter the number of litres of Gas: 5000
+Please enter the 2 letters province abbreviation: ab
+-------------------------------------------------------------------------------------------------------------------------------------
+Product         # of Liters             Price before discount           Price after discount         GST             Total Price
+Gas             5000                    5350.00                         4815.00                          240.75          5055.75
+-------------------------------------------------------------------------------------------------------------------------------------
+Thanks for your business, Good Bye
+
+
+#test case 3
+
+---------------------------------------
+*** Welcome to Gas Station Program! ***
+---------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>> G
+Enter the number of litres of Gas: 3000
+Please enter the 2 letters province abbreviation: ON
+-------------------------------------------------------------------------------------------------------------------------------------
+Product         # of Liters             Price before discount           Price after discount            GST            Total Price
+Gas             3000                    3210.00                         3210.00                         417.30         3627.30
+-------------------------------------------------------------------------------------------------------------------------------------
+Thanks for your business, Good Bye
+
+#test case 4 
+
+---------------------------------------
+*** Welcome to Gas Station Program! ***
+---------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>> o
+Enter # of cases of Oil: 10
+Please enter the 2 letters province abbreviation: ab
+-------------------------------------------------------------------------------------------------------------------------------------
+Product         # of Liters             Price before discount           Price after discount            GST             Total Price
+Oil             120                     152.40                          137.16                          6.86            144.02
+-------------------------------------------------------------------------------------------------------------------------------------
+Thanks for your business, Good Bye
+
+#test case 5
+
+---------------------------------------
+*** Welcome to Gas Station Program! ***
+---------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>> o
+Enter # of cases of Oil: 5
+Please enter the 2 letters province abbreviation: on
+-------------------------------------------------------------------------------------------------------------------------------------
+Product         # of Liters             Price before discount           Price after discount            GST             Total Price
+Oil             60                      76.20                           76.20                           9.91            86.11
+-------------------------------------------------------------------------------------------------------------------------------------
+Thanks for your business, Good Bye
+
+
+
