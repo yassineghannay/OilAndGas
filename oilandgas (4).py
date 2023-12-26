@@ -19,6 +19,8 @@ print("G: Gas")
 print("O: Oil") 
 user_choice = input(">>> ").lower()
 
+#if stamtemnt block that handle "gas or oil" 
+
 if user_choice in ["g", "o"]:
   if user_choice == "g":
       product = "Gas"
